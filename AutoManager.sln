@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apis", "Apis", "{BDE526C6-59A2-42BD-A698-F00AF4482A7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{05B8ADDA-A9D5-4D83-87D7-5BC22A6597CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{78305EFF-9263-45E4-B99D-BED3882F8206}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoManager.Domain", "AutoManager.Domain\AutoManager.Domain.csproj", "{4590D6C3-964F-443C-B4C2-DA691A37DC73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4590D6C3-964F-443C-B4C2-DA691A37DC73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4590D6C3-964F-443C-B4C2-DA691A37DC73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4590D6C3-964F-443C-B4C2-DA691A37DC73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4590D6C3-964F-443C-B4C2-DA691A37DC73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4590D6C3-964F-443C-B4C2-DA691A37DC73} = {78305EFF-9263-45E4-B99D-BED3882F8206}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D97FEDDB-B176-47B3-AE60-91E75F22EEAF}
+	EndGlobalSection
+EndGlobal
